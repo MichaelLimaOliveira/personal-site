@@ -9,6 +9,12 @@ body {
 .photo {
     border: 1px solid #505050;
     border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
 }
 
 #title {
@@ -17,12 +23,17 @@ body {
     text-transform: uppercase;
 }
 
-.contacts_list {
-    list-style-type: none;
-    padding-left: 15px;
+.link_image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display:inline-block;
 }
 
-.contacts_list li a {
-    text-decoration: none;
-    color: #505050;
+.link_image:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
 }
