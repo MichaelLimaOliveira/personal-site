@@ -34,6 +34,30 @@ header h1 {
     transform: scale(1.2);
 }
 
-footer{
+section{
     text-align: center;
+}
+
+footer{
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+article{
+    width:340px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+article:hover{
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.127);
+}
+
+
+article img{
+    max-width:100%;
 }
